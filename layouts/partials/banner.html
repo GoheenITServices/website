@@ -13,6 +13,7 @@
 			<i class="{{ .icon }}"></i>
 		</div>
 		{{ end }}
+		<img src="{{ .Site.Params.logo-long }}">
 		<h1>{{ .title | markdownify }}</h1>
 		<p>{{ .content | markdownify }}</p>
 		{{ if .button.enable }}
