@@ -7,18 +7,18 @@ contact:
   form_action: "#"
   contact_details:
   - icon: ti-location-pin
-    info: 'Cypress, Texas'
+    info: Cypress, Texas
     href: 
     click: 
   - icon: ti-comment-alt
-    info: 'Chat with us!'
+    info: Chat with us!
     href: "#"
-    click: $crisp.push(['do', 'chat:open']);return false;
+    click: "$crisp.push(['do', 'chat:open']); return false;"
   - icon: ti-mobile
-    info: "Phone: (346) 444-9091"
-    href: 'tel:3464449091'
+    info: 'Phone: (346) 444-9091'
+    href: tel:3464449091
     click: 
   - icon: ti-email
     info: 'Email: hello@goheenitservices.com'
-    href: 'mailto:hello@goheenitservices.com'
+    href: mailto:hello@goheenitservices.com
     click: 
