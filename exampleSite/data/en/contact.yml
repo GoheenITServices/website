@@ -13,7 +13,7 @@ contact:
   - icon: ti-comment-alt
     info: 'Chat with us!'
     href: "#"
-    click: "$crisp.push(['do', 'chat:open']);"
+    click: $crisp.push(['do', 'chat:open']);return false;
   - icon: ti-mobile
     info: "Phone: (346) 444-9091"
     href: 'tel:3464449091'
