@@ -23,8 +23,14 @@
 				<div class="contact-details">
 					{{ range .contact_details }}
 					<div class="con-info clearfix">
+						{{ if .link }}
+						<a href="{{ .link }}">
+						{{ end }}
 						<i class="{{ .icon }}"></i>
 						<span>{{ .info }}</span>
+						{{ if .link }}
+					</a>
+						{{ end }}
 					</div>
 					{{ end }}
 				</div>
