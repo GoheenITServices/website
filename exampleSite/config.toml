@@ -11,12 +11,6 @@ home = "Home"
 languageCode = "en-us"
 languageName = "En"
 weight = 1
-[Languages.fr]
-contentDir = "content/french"
-home = "Accueil"
-languageCode = "fr-fr"
-languageName = "Fr"
-weight = 2
 [menu]
 static = []
 [[menu.main]]
@@ -39,6 +33,7 @@ weight = 7
 author = "Goheen IT Services"
 description = "Goheen IT Services"
 google_analitycs_id = ""
+icon = "images/logo.png"
 logo = "images/logo_long2.png"
 post_share = false
 social = []
