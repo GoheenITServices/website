@@ -24,7 +24,7 @@
 					{{ range .contact_details }}
 					<div class="con-info clearfix">
 						{{ if .href }}
-						<a href="{{ .href | safeHTML | safeURL }}"{{ if .click }} onclick="{{ .click | safeHTML}}"{{ end }}>
+						<a href="{{ .href | safeHTML | safeURL }}"{{ if .click }} onclick="{{ .click | safeJS}}"{{ end }}>
 						{{ end }}
 						<i class="{{ .icon }}"></i>
 						<span>{{ .info }}</span>
