@@ -39,7 +39,7 @@ weight = 7
 author = "Goheen IT Services"
 description = "Goheen IT Services"
 google_analitycs_id = ""
-logo = "images/logo_long1.png"
+logo = "images/logo_long2.png"
 post_share = false
 social = []
 [params.map]
@@ -73,5 +73,5 @@ link = "plugins/lazy-load/lozad.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/logo.png"
