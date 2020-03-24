@@ -3,11 +3,11 @@ contact:
   enable: true
   title: Contact Us
   subtitle: Contact Details
-  content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero,
-    provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores
-    dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.
+  content: We are here to help!
   form_action: "#"
   contact_details:
+  - icon: ti-location-pin
+    info: Cypress, Texas
   - icon: ti-mobile
     info: 'Phone: (346) 444-9091'
   - icon: ti-email
