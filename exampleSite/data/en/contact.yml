@@ -14,3 +14,4 @@ contact:
     info: 'Email: hello@goheenitservices.com'
   - icon: ti-comment-alt
     info: "Chat with us!"
+    link: javascript:void(0);$crisp.push(['do', 'chat:open']);
