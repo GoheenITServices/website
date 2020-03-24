@@ -1550,8 +1550,8 @@ input#e-mail,
 .copyright {
   padding: 20px 0;
   color: #fff;
-  display: grid;
-  grid-gap: 50px;
+  display: inline-grid;
+  grid-column-gap: 50px;
 }
 
 .copyright img {
