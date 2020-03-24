@@ -423,6 +423,10 @@ a:hover {
   outline: 0;
 }
 
+.navbar-brand img {
+  max-height: 36px;
+}
+
 .bg-1 {
   background-repeat: no-repeat;
   background-size: cover;
@@ -1546,14 +1550,18 @@ input#e-mail,
 .copyright {
   padding: 20px 0;
   color: #fff;
+  display: grid;
+  grid-gap: 50px;
 }
 
 .copyright img {
+  max-height: 30px;
   margin-bottom: 15px;
 }
 
 .copyright p {
   margin-top: 10px;
+  display: inline-block;
 }
 
 #scrollUp {
