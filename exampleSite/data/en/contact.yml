@@ -10,9 +10,9 @@ contact:
     info: 'Cypress, Texas'
   - icon: ti-comment-alt
     info: 'Chat with us!'
-    href: 'javascript:void(0);$crisp.push(["do", "chat:open"]);'
+    href: "javascript:void(0);$crisp.push(['do', 'chat:open']);"
   - icon: ti-mobile
-    info: 'Phone: (346) 444-9091'
+    info: "Phone: (346) 444-9091"
     href: 'tel:3464449091'
   - icon: ti-email
     info: 'Email: hello@goheenitservices.com'
