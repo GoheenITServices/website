@@ -1550,9 +1550,8 @@ input#e-mail,
 .copyright {
   padding: 20px 0;
   color: #fff;
-  display: inline-grid;
-  grid-column-gap: 50px;
-  grid-template-columns: repeat( auto-fill, minmax( 230px, 1fr ) );
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax( 230px, 1fr ) );
 }
 
 .copyright img {
