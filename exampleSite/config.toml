@@ -32,7 +32,7 @@ weight = 7
 [params]
 author = "Goheen IT Services"
 description = "Goheen IT Services"
-google_analitycs_id = ""
+google_analitycs_id = "UA-179032224-1"
 icon = "images/logo.png"
 logo = "images/logo_long2.png"
 post_share = false
