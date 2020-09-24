@@ -1,4 +1,6 @@
-function contactus(){
+function contactus(e){
+  e.preventDefault();
+  
   var emailValue = document.getElementById("email").value;
   var nameValue = document.getElementById("name").value;
   var companyValue = document.getElementById("company").value;
@@ -9,7 +11,5 @@ function contactus(){
   $crisp.push(["set", "user:company", [companyValue]]);
   $crisp.push(["do", "message:send", ["text", messageValue]]);
   $crisp.push(["do", "chat:open"]);
-  
-  return false;
 }
-document.getElementById("contact-form").onSubmit = contactus;
+document.getElementById("contact-form").onSubmit = "contactus();return false;";
