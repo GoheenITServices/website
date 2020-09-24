@@ -12,7 +12,7 @@ form.addEventListener('submit', event => {
     $crisp.push(["set", "user:nickname", [nameValue]]);
     $("name").removeClass("form-error");
   }
-  catch() {
+  catch(err) {
     $("name").addClass("form-error");
     errcount++;
   }
@@ -20,7 +20,7 @@ form.addEventListener('submit', event => {
     $crisp.push(["set", "user:email", [emailValue]]);
     $("email").removeClass("form-error");
   }
-  catch() {
+  catch(err) {
     $("email").addClass("form-error");
     errcount++;
   }
@@ -28,7 +28,7 @@ form.addEventListener('submit', event => {
     $crisp.push(["set", "user:company", [companyValue]]);
     $("company").removeClass("form-error");
   }
-  catch() {
+  catch(err) {
     $("company").addClass("form-error");
     errcount++;
   }
@@ -39,7 +39,7 @@ form.addEventListener('submit', event => {
       $crisp.push(["do", "chat:open"]);
       $("message").removeClass("form-error");
     }
-    catch() {
+    catch(err) {
       $("message").addClass("form-error");
     }
   }
