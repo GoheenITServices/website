@@ -3,11 +3,23 @@ pricing:
   enable: true
   title: Our Plans
   pricing_table:
-  - name: À la carte
-    price: Varies
-    unit: month
+  - name: Equipment Management
+    price: "$5"
+    unit: device per month
     services:
-    - Equipment Management
+    - Networking Equipment
+    - Computers/Phones
+    - Printers/Scanners
+    button:
+      link: "#contact"
+      label: Inquire
+  - name: Equipment Leasing
+    price: Varies
+    unit: device per month
+    services:
+    - Networking Equipment
+    - Computers/Phones
+    - Printers/Scanners
     button:
       label: Signup
       link: "#contact"
@@ -18,9 +30,10 @@ pricing:
     - Personalized Helpdesk
     - Realtime Equipment Monitoring
     - Information Security Training
-    - Business Processes Evaluation
+    - Business Continuity Planning
+    - Business Process Evaluation
+    - IT Equipment
     - Software/Services
-    - Everything in À la carte
     button:
       label: Signup
       link: "#contact"
