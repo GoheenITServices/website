@@ -5,8 +5,8 @@ banner:
   bg_image: images/backgrounds/hero-area.jpg
   icon: ''
   title: Stress Free IT
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, excepturi.
-    At recusandae sit perferendis autem,iste tempora nostrum numquam sapiente!
+  content: Make your business as effective as possible. Let us be your IT department,
+    and we will make sure you have everything you need to succeed.
   button:
     enable: true
     label: Explore Us
