@@ -1,5 +1,6 @@
-function contactus(e){
-  e.preventDefault();
+const form = document.getElementById("contact-form");
+form.addEventListener('submit', event => {
+  event.preventDefault();
   
   var emailValue = document.getElementById("email").value;
   var nameValue = document.getElementById("name").value;
@@ -11,5 +12,7 @@ function contactus(e){
   $crisp.push(["set", "user:company", [companyValue]]);
   $crisp.push(["do", "message:send", ["text", messageValue]]);
   $crisp.push(["do", "chat:open"]);
-}
-document.getElementById("contact-form").onSubmit = "contactus();return false;";
+  
+  console.log('Form submission cancelled.');
+});
+
