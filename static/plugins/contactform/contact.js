@@ -7,6 +7,9 @@ function contactus(){
   $crisp.push(["set", "user:email", [emailValue]]);
   $crisp.push(["set", "user:nickname", [nameValue]]);
   $crisp.push(["set", "user:company", [companyValue]]);
-  $crisp.push(["do", "message:send", ["text", messageValue]])
-  $crisp.push(["do", "chat:open"])
+  $crisp.push(["do", "message:send", ["text", messageValue]]);
+  $crisp.push(["do", "chat:open"]);
+  
+  return false;
 }
+document.getElementById("contact-form").onSubmit = contactus;
