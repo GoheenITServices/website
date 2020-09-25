@@ -7,11 +7,6 @@ about:
     title: Our Mission
     content: Our Mission is to help companies operate as efficiently as possible by
       providing highly effective, managed IT solutions.
-  - icon: ti-cup
-    title: We're Professional
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
-      libero, perspiciatis eos provident laborum eum dignissimos.
-  - icon: ti-thought
-    title: We're Genius
-    content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil,
-      libero, perspiciatis eos provident laborum eum dignissimos.
+  - icon: ti-heart
+    title: We're Passionate
+    content: We love technology and are passionate about excellence.
