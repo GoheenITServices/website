@@ -1,6 +1,6 @@
 ---
 feature:
-  enable: false
+  enable: true
   image: images/pexels-brett-sayles-2881232.jpg
   image_webp: ''
   title: We’re Your IT Solutions Specialists.
