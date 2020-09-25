@@ -5,7 +5,7 @@ pricing:
   pricing_table:
   - name: Equipment Management
     price: "$5"
-    unit: device per month
+    unit: device / month
     services:
     - Networking Equipment
     - Computers/Phones
@@ -18,7 +18,7 @@ pricing:
       label: Inquire
   - name: Equipment Leasing
     price: Varies
-    unit: ''
+    unit: device / month
     services:
     - Networking Equipment
     - Computers/Phones
@@ -26,12 +26,13 @@ pricing:
     - Equipment Monitoring
     - Helpdesk
     - "-"
+    - "-"
     button:
       label: Inquire
       link: "#contact"
   - name: White Glove Service
     price: "$500"
-    unit: employee per month
+    unit: employee / month
     services:
     - Personalized Helpdesk
     - Realtime Equipment Monitoring
