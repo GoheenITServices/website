@@ -4,7 +4,7 @@ form.addEventListener('submit', event => {
   
   var nameValue = document.getElementById("name").value;
   var emailValue = document.getElementById("email").value;
-  var companyValue = document.getElementById("company").value;
+  var phoneValue = document.getElementById("phone").value;
   var messageValue = document.getElementById("message").value;
   
   var errcount = 0;
@@ -24,13 +24,15 @@ form.addEventListener('submit', event => {
     $("#email").addClass("form-error");
     errcount++;
   }
-  try {
-    $crisp.push(["set", "user:company", [companyValue]]);
-    $("#company").removeClass("form-error");
-  }
-  catch(err) {
-    $("#company").addClass("form-error");
-    errcount++;
+  if(phoneValue !== ""){
+    try {
+      $crisp.push(["set", "user:phone", [phoneValue]]);
+      $("#phone").removeClass("form-error");
+    }
+    catch(err) {
+      $("#phone").addClass("form-error");
+      errcount++;
+    }
   }
   
   if(errcount == 0){
