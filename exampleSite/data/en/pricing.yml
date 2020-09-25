@@ -17,7 +17,7 @@ pricing:
     button:
       link: "#contact"
       label: Inquire
-  - name: Device Leasing
+  - name: Equipment Leasing
     price: "~"
     unit: device / month
     services:
