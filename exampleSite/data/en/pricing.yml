@@ -12,6 +12,7 @@ pricing:
     - Printers/Scanners
     - "-"
     - "-"
+    - "-"
     - " -"
     - "-"
     button:
@@ -26,6 +27,7 @@ pricing:
     - Printers/Scanners
     - Equipment Monitoring
     - Helpdesk
+    - "-"
     - "-"
     - "-"
     button:
