@@ -6,21 +6,21 @@ feature:
   title: White Glove IT Services
   content: ''
   feature_item:
-  - title: Predictable Billing
-    icon: ti-timer
-    content: Know exactly how much you are spending on IT, with no surprises.
   - title: Consolidate IT Expenses
     icon: ti-money
-    content: You pay one bill for your IT expenses, and we handle the rest. From Internet
-      Access, and desk phones, to Microsoft Office 365 and Salesforce. It's all included
-      in the price.
-  - title: No Red Tape
-    icon: ti-stats-up
-    content: If an employee needs a new piece of software (up to $1000), they can
-      contact the helpdesk to have it purchased and installed quickly, no red tape,
-      no extra costs, no lost productivity.
+    content: You pay one predictable bill for your IT expenses, and we handle the
+      rest. From Internet Access, computers, and desk phones, to Microsoft Office
+      365 and Salesforce. It's all included in the price.
   - title: Hands Off
     icon: ti-hand-stop
     content: Once you sign up with us, you can forget about IT and get back to doing
       other things. We will handle talking to your employees and getting them all
       of the IT resources they need to be efficient.
+  - title: No Red Tape
+    icon: ti-stats-up
+    content: If an employee needs a new piece of software (up to $1000), they can
+      contact the helpdesk to have it purchased and installed quickly, no red tape,
+      no extra costs, no lost productivity.
+  - title: Predictable Billing
+    icon: ti-timer
+    content: Know exactly how much you are spending on IT, with no surprises.
