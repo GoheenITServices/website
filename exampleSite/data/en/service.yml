@@ -13,7 +13,7 @@ service:
     icon: ti-pulse
     content: |-
       We monitor your IT Equipment 24/7, so we can start fixing issues before you even realize something happened.
-      &NBSP;
+      <code>&nbsp;</code>
   - name: Information Security Training
     icon: ti-blackboard
     content: We provide employee training and testing to ensure that your employees
