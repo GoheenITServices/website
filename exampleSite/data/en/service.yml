@@ -5,12 +5,14 @@ service:
   service_item:
   - name: Personalized Helpdesk
     icon: ti-headphone-alt
-    content: We will be your IT department, Helping your employees with all of their
-      technical needs.
+    content: "We will be your IT department, Helping your employees with all of their
+      technical needs.\n\n"
   - name: Realtime Equipment Monitoring
     icon: ti-pulse
-    content: We monitor your IT Equipment 24/7, so we can start fixing issues before
+    content: 'We monitor your IT Equipment 24/7, so we can start fixing issues before
       you even realize something happened.
+
+'
   - name: Information Security Training
     icon: ti-blackboard
     content: We provide employee training and testing to ensure that your employees
@@ -24,7 +26,3 @@ service:
     icon: ti-package
     content: We can evaluate your employees workflow to ensure that there aren't any
       unnecessary time-sinks.
-  - name: Networking
-    icon: ti-pulse
-    content: Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum
-      facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
