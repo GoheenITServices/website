@@ -3,22 +3,24 @@ feature:
   enable: true
   image: images/pexels-brett-sayles-2881232.jpg
   image_webp: ''
-  title: We’re Your IT Solutions Specialists.
+  title: White Glove IT Services
   content: ''
   feature_item:
-  - title: SEO Optimized
-    icon: ti-world
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
-  - title: Easy Customization
-    icon: ti-panel
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
-  - title: SEO Optimized
+  - title: Predictable Billing
+    icon: ti-timer
+    content: Know exactly how much you are spending on IT, with no surprises.
+  - title: Consolidate IT Expenses
+    icon: ti-money
+    content: You pay one bill for your IT expenses, and we handle the rest. From Internet
+      Access, and desk phones, to Microsoft Office 365 and Salesforce. It's all included
+      in the price.
+  - title: No Red Tape
     icon: ti-stats-up
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
-  - title: Easy Customization
-    icon: ti-announcement
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
+    content: If an employee needs a new piece of software (up to $1000), they can
+      contact the helpdesk to have it purchased and installed quickly, no red tape,
+      no extra costs, no lost productivity.
+  - title: Hands Off
+    icon: ti-hand-stop
+    content: Once you sign up with us, you can forget about IT and get back to doing
+      other things. We will handle talking to your employees and getting them all
+      of the IT resources they need to be efficient.
