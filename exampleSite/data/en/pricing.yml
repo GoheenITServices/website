@@ -3,7 +3,7 @@ pricing:
   enable: true
   title: Our Plans
   pricing_table:
-  - name: Equipment Management
+  - name: Management
     price: "$5"
     unit: device / month
     services:
@@ -16,8 +16,8 @@ pricing:
     button:
       link: "#contact"
       label: Inquire
-  - name: Equipment Leasing
-    price: Varies
+  - name: Leasing
+    price: "~"
     unit: device / month
     services:
     - Networking Equipment
@@ -30,7 +30,7 @@ pricing:
     button:
       label: Inquire
       link: "#contact"
-  - name: White Glove Service
+  - name: White-Glove
     price: "$500"
     unit: employee / month
     services:
