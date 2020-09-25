@@ -34,7 +34,7 @@ pricing:
       label: Inquire
       link: "#contact"
   - name: White Glove Service
-    price: "$350"
+    price: "$375"
     unit: user / month
     services:
     - Predictable Pricing
