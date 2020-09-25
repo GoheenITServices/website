@@ -10,6 +10,9 @@ pricing:
     - Networking Equipment
     - Computers/Phones
     - Printers/Scanners
+    - ''
+    - ''
+    - ''
     button:
       link: "#contact"
       label: Inquire
@@ -22,8 +25,9 @@ pricing:
     - Printers/Scanners
     - Equipment Monitoring
     - Helpdesk
+    - ''
     button:
-      label: Signup
+      label: Inquire
       link: "#contact"
   - name: White Glove
     price: "$500"
@@ -37,5 +41,5 @@ pricing:
     - IT Equipment
     - Software/Services
     button:
-      label: Signup
+      label: Inquire
       link: "#contact"
