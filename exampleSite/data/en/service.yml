@@ -4,12 +4,12 @@ service:
   title: Our Services
   service_item:
   - name: Personalized Helpdesk
-    icon: ti-world
+    icon: ti-headphone-alt
     content: We will be your IT department. If any of your employees need assistance
       with the technology we provide, we will be happy to help them as your companies
       IT Department.
   - name: Realtime Equipment Monitoring
-    icon: ti-layout
+    icon: ti-
     content: We monitor your IT Equipment 24/7, so we can start fixing issues before
       you even realize something happened.
   - name: Information Security Training
