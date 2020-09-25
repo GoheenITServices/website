@@ -20,6 +20,8 @@ pricing:
     - Networking Equipment
     - Computers/Phones
     - Printers/Scanners
+    - Equipment Monitoring
+    - Helpdesk
     button:
       label: Signup
       link: "#contact"
