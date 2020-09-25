@@ -3,7 +3,7 @@ pricing:
   enable: true
   title: Our Plans
   pricing_table:
-  - name: Management
+  - name: Device Management
     price: "$5"
     unit: device / month
     services:
@@ -17,7 +17,7 @@ pricing:
     button:
       link: "#contact"
       label: Inquire
-  - name: Leasing
+  - name: Device Leasing
     price: "~"
     unit: device / month
     services:
@@ -31,7 +31,7 @@ pricing:
     button:
       label: Inquire
       link: "#contact"
-  - name: White-Glove
+  - name: White Glove Service
     price: "$500"
     unit: user / month
     services:
