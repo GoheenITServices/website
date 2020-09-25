@@ -9,7 +9,7 @@ service:
       with the technology we provide, we will be happy to help them as your companies
       IT Department.
   - name: Realtime Equipment Monitoring
-    icon: ti-
+    icon: ti-pulse
     content: We monitor your IT Equipment 24/7, so we can start fixing issues before
       you even realize something happened.
   - name: Information Security Training
@@ -18,7 +18,7 @@ service:
       know how to avoid leaking information or becoming the victim of a ransomware
       attack.
   - name: Business Continuity Planning
-    icon: ti-palette
+    icon: ti-alert
     content: 'We help you plan for the worst, so that even if disaster strikes, your
       business can keep on moving. '
   - name: Business Process Evaluation
