@@ -48,13 +48,19 @@ form.addEventListener('submit', event => {
 });
 
 $(".price-item:eq(0) a.btn").click(function() {
-  $crisp.push(["set", "session:segments", [["Management"]]])
+  $crisp.push(["set", "session:segments", [["Management"]]]);
+  $crisp.push(["do", "message:send", ["text", "I'd like some more information about your Device Management plans."]]);
+  $crisp.push(["do", "chat:open"]);
 });
 
 $(".price-item:eq(1) a.btn").click(function() {
-  $crisp.push(["set", "session:segments", [["Lease"]]])
+  $crisp.push(["set", "session:segments", [["Lease"]]]);
+  $crisp.push(["do", "message:send", ["text", "I'd like some more information about your Equipment Leasing Plans."]]);
+  $crisp.push(["do", "chat:open"]);
 });
 
 $(".price-item:eq(2) a.btn").click(function() {
-  $crisp.push(["set", "session:segments", [["White-Glove"]]])
+  $crisp.push(["set", "session:segments", [["White-Glove"]]]);
+  $crisp.push(["do", "message:send", ["text", "I'd like some more information about your White Glove Service."]]);
+  $crisp.push(["do", "chat:open"]);
 });
