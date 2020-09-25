@@ -19,7 +19,7 @@ name = "About Us"
 weight = 1
 [[menu.main]]
 URL = "services"
-name = "Service"
+name = "Services"
 weight = 2
 [[menu.main]]
 URL = "pricing"
