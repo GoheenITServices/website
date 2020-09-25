@@ -10,9 +10,9 @@ pricing:
     - Networking Equipment
     - Computers/Phones
     - Printers/Scanners
-    - " "
-    - " "
-    - " "
+    - "<code>&nbsp;</code>"
+    - "-"
+    - " -"
     button:
       link: "#contact"
       label: Inquire
@@ -25,7 +25,7 @@ pricing:
     - Printers/Scanners
     - Equipment Monitoring
     - Helpdesk
-    - "&NBSP;"
+    - "-"
     button:
       label: Inquire
       link: "#contact"
