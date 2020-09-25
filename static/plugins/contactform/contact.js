@@ -47,3 +47,14 @@ form.addEventListener('submit', event => {
   }
 });
 
+$(".price-item:eq(0) a.btn").click(function() {
+  $crisp.push(["set", "session:segments", [["Management"]]])
+});
+
+$(".price-item:eq(1) a.btn").click(function() {
+  $crisp.push(["set", "session:segments", [["Lease"]]])
+});
+
+$(".price-item:eq(2) a.btn").click(function() {
+  $crisp.push(["set", "session:segments", [["White-Glove"]]])
+});
