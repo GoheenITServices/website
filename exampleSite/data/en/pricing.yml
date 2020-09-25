@@ -10,7 +10,7 @@ pricing:
     - Networking Equipment
     - Computers/Phones
     - Printers/Scanners
-    - "<code>&nbsp;</code>"
+    - "-"
     - "-"
     - " -"
     button:
@@ -18,7 +18,7 @@ pricing:
       label: Inquire
   - name: Equipment Leasing
     price: Varies
-    unit: device per month
+    unit: ''
     services:
     - Networking Equipment
     - Computers/Phones
@@ -29,7 +29,7 @@ pricing:
     button:
       label: Inquire
       link: "#contact"
-  - name: White Glove
+  - name: White Glove Service
     price: "$500"
     unit: employee per month
     services:
