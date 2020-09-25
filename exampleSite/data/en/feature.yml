@@ -21,6 +21,8 @@ feature:
     content: If an employee needs a new piece of software (up to $1000), they can
       contact the helpdesk to have it purchased and installed quickly, no red tape,
       no extra costs, no lost productivity.
-  - title: Predictable Billing
-    icon: ti-timer
-    content: Know exactly how much you are spending on IT, with no surprises.
+  - title: Peace of Mind
+    icon: ti-cloud
+    content: Sleep well, knowing that your critical business infrastructure is monitored
+      24/7, and that your employees are well equipped and trained to handle whatever
+      they need to.
