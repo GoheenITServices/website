@@ -7,8 +7,8 @@ service:
     icon: ti-headphone-alt
     content: |-
       We will be your IT department, Helping your employees with all of their technical needs.
-      &nbsp;
-      &nbsp;
+      <code>&nbsp;</code>
+      <code>&nbsp;</code>
   - name: Realtime Equipment Monitoring
     icon: ti-pulse
     content: |-
